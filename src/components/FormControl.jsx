@@ -91,11 +91,13 @@ const FormControl = () => {
                 <label for="weekday-sat">S</label>
             </div>
 
-            <Datepicker
-                value={value}
-                onChange={handleValueChange}
-                displayFormat={"DD/MM/YYYY"}
-            />
+            <div>
+                <Datepicker
+                    value={value}
+                    onChange={handleValueChange}
+                    displayFormat={"DD/MM/YYYY"}
+                />
+            </div>
         </form>
     );
 };
